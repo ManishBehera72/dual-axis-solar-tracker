@@ -1,0 +1,90 @@
+# Dual Axis Solar Tracker Documentation
+
+## 1. Introduction
+The Dual Axis Solar Tracker is an Arduino-based system designed to automatically track sunlight using LDR sensors and servo motors. The project improves solar panel efficiency by maintaining optimal alignment with the sun.
+
+---
+
+## 2. Objectives
+- To increase solar energy collection efficiency
+- To implement automatic sunlight tracking
+- To design a lightweight 3D printed mechanism
+- To learn embedded system control using Arduino
+
+---
+
+## 3. Components Required
+| Component | Quantity |
+|---|---|
+| Arduino Uno | 1 |
+| LDR Sensors | 4 |
+| Servo Motors | 2 |
+| Solar Panel | 1 |
+| Breadboard | 1 |
+| Jumper Wires | Multiple |
+| External Power Supply | 1 |
+
+---
+
+## 4. System Architecture
+The system consists of:
+- Light sensing unit
+- Arduino control unit
+- Servo motor actuation system
+- Solar panel mounting structure
+
+---
+
+## 5. Working Principle
+The LDR sensors continuously measure sunlight intensity from different directions. The Arduino compares these values and rotates the servo motors toward the direction of maximum light intensity.
+
+Two servo motors provide:
+- Horizontal movement
+- Vertical movement
+
+This enables dual-axis tracking.
+
+---
+
+## 6. Circuit Connections
+- LDRs connected to analog pins
+- Servo motors connected to PWM pins
+- External power supply used for servo operation
+
+(Add circuit image here)
+
+---
+
+## 7. Software Description
+The Arduino program:
+1. Reads LDR values
+2. Compares light intensities
+3. Calculates required movement
+4. Rotates servo motors accordingly
+5. Repeats continuously
+
+---
+
+## 8. 3D Printed Design
+The mechanical frame is designed using 3D modeling software and printed using PLA material. The structure supports smooth dual-axis rotation.
+
+---
+
+## 9. Applications
+- Solar energy optimization
+- Smart renewable systems
+- Educational projects
+- Embedded system learning
+
+---
+
+## 10. Future Improvements
+- IoT monitoring
+- Battery charging system
+- Weather protection
+- Automatic calibration
+
+---
+
+## 11. Conclusion
+The project successfully demonstrates automatic dual-axis solar tracking using Arduino and LDR sensors. The system is cost-effective, simple, and suitable for educational and renewable energy applications.
