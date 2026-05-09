@@ -39,12 +39,19 @@ This improves solar panel efficiency compared to fixed solar panels.
 
 ## Project Structure
 /project
+
 ├── Arduino_Code
+
 ├── Circuit_Diagram
+
 ├── 3D_Models
+
 ├── Images
+
 ├── Videos
+
 ├── Documentation
+
 └── README.md
 
 ---
