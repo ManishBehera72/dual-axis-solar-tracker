@@ -73,4 +73,4 @@ This improves solar panel efficiency compared to fixed solar panels.
 ---
 
 ## Author
-Manish Behera
+ManishBehera72
